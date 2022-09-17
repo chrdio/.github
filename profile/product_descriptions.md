@@ -29,7 +29,7 @@ The ultimate chord progression generator that transforms chords into exciting, n
 
 Music isn't just beautiful, it's an inexhaustible source of ideas. We want to make it as easy as possible for you to dive into this world and see what it can bring out of you.
 
-Chord.io generates chord progressions that follow the rules of music theory, and are musically pleasant to listen to. It can generate millions of voicing variants, so it's very unlikely you will hear repeats. Every generated progression is downloadable as a MIDI file.
+chrd.io generates chord progressions that follow the rules of music theory, and are musically pleasant to listen to. It can generate millions of voicing variants, so it's very unlikely you will hear repeats. Every generated progression is downloadable as a MIDI file.
 
 # Short and music-related
 chrd.io is a web app that generates chord progressions. The results are musically pleasing, enjoyable, and useable. The app design is minimalist, allowing you to focus on what matters: music and inspiration.
