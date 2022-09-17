@@ -22,7 +22,9 @@ The backend of the project was built as a monolith but organically evolved into 
 ##Short
 microfunkhaus is the facade/gateway microservice. It orchestrates the chord-progression generation pipeline asynchronously with the aiohttp library using the pydantic library for robust data coercion, validation and serialization.
 
-microaccountant is a persistent, session-based, SQL dialect-agnostic, transaction-aware microservice that provides data storage and retrieval with SQLAlchemy and puydantic
+microaccountant is a persistent, session-based, SQL dialect-agnostic, transaction-aware microservice that provides data storage and retrieval with **SQLAlchemy** and **pydantic**
+
+microbureaucrat is a small and robust microservice MIDI-file generation, that uses the **mido** library to create MIDI files and serves them as a hex-encoded string.
 
 ---
 ##Shorter
