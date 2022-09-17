@@ -34,4 +34,4 @@ chrd.io generates chord progressions that follow the rules of music theory, and 
 # Short and music-related
 chrd.io is a web app that generates chord progressions. The results are musically pleasing, enjoyable, and useable. The app design is minimalist, allowing you to focus on what matters: music and inspiration.
 
-Chord.io is a web app that helps you find chord progressions for your song.
+chrd.io is a web app that helps you find chord progressions for your song.
