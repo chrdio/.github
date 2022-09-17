@@ -8,15 +8,15 @@
 
 The ***backend*** of the project was built as a monolith but organically evolved into a small web of python microservices. Each of those is built with the **FastAPI** framework, as it is lightweight, really fast, and refreshingly convenient to work with.
 
-- [**microfunkhaus**](api-funkhaus-micro-fastapi) is the facade/gateway microservice. It orchestrates the chord-progression generation pipeline asynchronously with the **aiohttp** library using the **pydantic** library for robust data coercion, validation and serialization.
+- [**microfunkhaus**](https://github.com/chrdio/api-funkhaus-micro-fastapi) is the facade/gateway microservice. It orchestrates the chord-progression generation pipeline asynchronously with the **aiohttp** library using the **pydantic** library for robust data coercion, validation and serialization.
 
-- [**microaccountant**](api-accountant-micro-fastapi) is a persistent, session-based, SQL dialect-agnostic, transaction-aware microservice that provides data storage and retrieval with **SQLAlchemy** and **pydantic**
+- [**microaccountant**](https://github.com/chrdio/api-accountant-micro-fastapi) is a persistent, session-based, SQL dialect-agnostic, transaction-aware microservice that provides data storage and retrieval with **SQLAlchemy** and **pydantic**
 
-- [**microbureaucrat**](api-bureaucrat-micro-fastapi) is a small and robust microservice MIDI-file generation, that uses the **mido** library to create MIDI files and serves them as a hex-encoded string.
+- [**microbureaucrat**](https://github.com/chrdio/api-bureaucrat-micro-fastapi) is a small and robust microservice MIDI-file generation, that uses the **mido** library to create MIDI files and serves them as a hex-encoded string.
 
-- [**microvoicemaster**](api-voicemaster-micro-fastapi) is a microservice for converting chord-specifications into note-implementations based on the propreitary **voicemaster** python library.
+- [**microvoicemaster**](https://github.com/chrdio/api-voicemaster-micro-fastapi) is a microservice for converting chord-specifications into note-implementations based on the propreitary **voicemaster** python library.
 
-- [**micropathforger**](api-funkhaus-micro-fastapi) is a microservice to generate chord progression specifications given the mode definition based on the proprietary **pathforger** python library.
+- [**micropathforger**](https://github.com/chrdio/api-pathforger-micro-fastapi) is a microservice to generate chord progression specifications given the mode definition based on the proprietary **pathforger** python library.
 
 The project uses the **poetry** tool for dependency management and package building.
 Apart from the **fastapi** library, all of the microservices depend on the **chrdiotypes** proprietary library. It defines common types, shemas and methods that glue different codebases together.
