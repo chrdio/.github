@@ -17,6 +17,12 @@ The backend of the project was built as a monolith but organically evolved into 
 3. "microbureaucrat" - the MIDI-file generation microservice.
     - uses the **mido** library for MIDI-related tasks
     - manages file caching and hex-string convertion
+4. "microvoicemaster" - the voicification microservice.
+    - uses the propreitary **voicemaster** library to turn abstract chord definitions into concrete note-implementations
+    - uses the pydantic library for data coercion
+5. "micropathforger" - the chord-specification generator.
+    - uses the propreitary **pathforger** library to generate chord-progression specs given the mode definition
+    - uses the pydantic library for data coercion
 
 ---
 ##Short
@@ -26,6 +32,10 @@ microaccountant is a persistent, session-based, SQL dialect-agnostic, transactio
 
 microbureaucrat is a small and robust microservice MIDI-file generation, that uses the **mido** library to create MIDI files and serves them as a hex-encoded string.
 
+microvoicemaster is a microservice for converting chord-specifications into note-implementations based on the propreitary **voicemaster** python library.
+
+micropathforger is a microservice to generate chord progression specifications given the mode definition based on the proprietary **pathforger** python library.
+
 ---
 ##Shorter
 microfunkhaus is a gateway microservice for the progression generation pipeline.
@@ -33,3 +43,7 @@ microfunkhaus is a gateway microservice for the progression generation pipeline.
 microaccountant is a database manager microservice.
 
 microbureaucrat is a MIDI-file generation microservice.
+
+microvoicemaster is a microservice for converting chord into voices.
+
+micropathforger is a microservice for chord-specification generation.
