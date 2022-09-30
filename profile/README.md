@@ -1,7 +1,7 @@
 
 # App that helps you find chord progressions
 
-[chrd.io](https://chrd.io) generates chord progressions that follow the rules of music theory, and are musically pleasant to listen to. It can generate ~~thousands~~ **millions** of voicing variants, so it's very unlikely you will hear repeats. Every generated progression is downloadable as a MIDI file.
+[chrd.io](https://chrd.io) generates chord progressions that follow the rules of music theory, and are musically pleasant to listen to. It can generate ~~millions~~ **trillions** of voicing variants, so it's very unlikely you will hear repeats. Every generated progression is downloadable as a MIDI file.
 
 ![cover](https://user-images.githubusercontent.com/83789452/190855163-cf024491-9399-4295-8645-dfa9288b972d.png)
 ## Tech Stack
